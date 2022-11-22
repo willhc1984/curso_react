@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Exemplo03 from './hooks/Exemplo03_useState';
+import Exemplo04 from './hooks/Exemplo04_useState';
+import Exemplo05 from './hooks/Exemplo05_useEffect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Exemplo03 /> <hr></hr>
+    <Exemplo05 /> <hr></hr>
   </React.StrictMode>
 );
 

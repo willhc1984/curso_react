@@ -8,11 +8,13 @@ import Exemplo05 from './hooks/Exemplo05_useEffect';
 import Exemplo06 from './hooks/Exemplo06_useEffect';
 import Exemplo07 from './hooks/Exemplo07_useContext';
 import Exemplo08 from './hooks/Exemplo08_useRef';
+import Exemplo09 from './hooks/Exemplo09_useReducer';
+import Exemplo10 from './hooks/Exemplo10_useMemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Exemplo08 /> <hr></hr>
+    <Exemplo10 /> <hr></hr>
   </React.StrictMode>
 );
 

@@ -5,11 +5,12 @@ import reportWebVitals from './reportWebVitals';
 import Exemplo03 from './hooks/Exemplo03_useState';
 import Exemplo04 from './hooks/Exemplo04_useState';
 import Exemplo05 from './hooks/Exemplo05_useEffect';
+import Exemplo06 from './hooks/Exemplo06_useEffect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Exemplo05 /> <hr></hr>
+    <Exemplo06 /> <hr></hr>
   </React.StrictMode>
 );
 

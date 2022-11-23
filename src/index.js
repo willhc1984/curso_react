@@ -10,11 +10,12 @@ import Exemplo07 from './hooks/Exemplo07_useContext';
 import Exemplo08 from './hooks/Exemplo08_useRef';
 import Exemplo09 from './hooks/Exemplo09_useReducer';
 import Exemplo10 from './hooks/Exemplo10_useMemo';
+import Exemplo11 from './hooks/Exemplo11_useCallBack';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Exemplo10 /> <hr></hr>
+    <Exemplo11 /> <hr></hr>
   </React.StrictMode>
 );
 
